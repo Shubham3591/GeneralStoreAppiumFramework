@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FullRegression"   >
+
+    <test name="AllTests" preserve-order="true"  >
+        <classes>
+              <class name="GS.Appium.testCases.eCommerce_tc"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
